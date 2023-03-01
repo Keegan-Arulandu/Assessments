@@ -1,0 +1,52 @@
+
+
+.card-body {
+    width: 100%;
+}
+
+.card {
+width: 30%;
+max-width: 300px;
+padding: 40px;
+border-radius: 10px;
+border: 1px solid transparent;
+backdrop-filter: blur(7px);
+box-shadow: 14px 16px 10px rgba(0, 0, 0, 0.6);
+background-color: rgba(255,225,225, 0.1);
+
+border-top-color: rgba(255,225,225, 0.1);
+border-left-color: rgba(255,225,225, 0.1);
+border-bottom-color: rgba(255,225,225, 0.1);
+border-right-color: rgba(255,225,225, 0.1);
+}
+
+input {
+    max-width: 213px;
+    min-height: 50px;
+    background-color: rgba(255, 255, 255, 0.087);
+    border: 2px solid rgb(255,90,96);
+    border-radius: 4px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    outline: none;
+    padding-right: 10px;
+}
+
+.btn {
+    width: 50px;
+    max-height: 50px;
+    margin: 2px;
+    font-size: 22px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255,90,96);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgb(255,90,96);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255,90,96);
+}
+
